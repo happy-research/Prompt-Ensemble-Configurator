@@ -334,8 +334,8 @@ if __name__ == '__main__':
 
     plm, tokenizer, model_config, WrapperClass = load_plm("bert", "bert-base-cased")
 
-    dataset=read_data_csv("/kaggle/input/reviewallmap/review_all_map.csv",[6504,723])
-    need_dataset=read_data_csv("/kaggle/input/needallmap/need_all_map.csv",[535,535])
+    dataset=read_data_csv("/kaggle/input/reviewallmap/review_all_map.csv",[0.9,0.1])
+    need_dataset=read_data_csv("/kaggle/input/needallmap/need_all_map.csv",[0.5,0.5])
     
     epoch=10
     

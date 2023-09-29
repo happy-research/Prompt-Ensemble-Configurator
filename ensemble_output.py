@@ -45,7 +45,7 @@ for i in range(7):#7 model for ensemble
     #print(record[i][0])
     #print(len(record[i]))
 
-    def vote(list1, list2, list3, list4, list5, list6, list7):
+def vote(list1, list2, list3, list4, list5, list6, list7):
     n=len(list1)
     result=[]
     for i in range(n):
